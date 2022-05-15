@@ -1,0 +1,6 @@
+### Django ###
+.pytest_cache
+.idea
+static/
+db.sqlite3
+.env
