@@ -5,7 +5,7 @@
 
 ## General Info
 
- The Dates Fact Project is simple REST APIs using Django Framework.
+ The Dates Fact Project is for simple REST APIs using Django Framework.
 It has a basic Database Interacting With an Eternal API inorder to store 
 an interacting Fact about that specific day and month.
 
@@ -48,8 +48,16 @@ an interacting Fact about that specific day and month.
     - migrate the database
     - runserver
 
+
+### Available APIs
+
+    - [POST]/dates/   -> to create/update fact records
+    - [DELETE]/dates/id   header X-API-KEY = <SECRET-API-KEY> 
+    - [GET]/popular/  -> to get the popular/most checked facts
+    - [GET]/dates/   ->  to get all the date fact records
+
 ### Examples of use
-   ![dates_fact](./screenshot.png)
+   * ![dates_fact](./screenshot.png)
 
 
  
